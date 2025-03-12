@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>My Hobbies and Interests</h2>
+            <ul>
+                <li>Baking</li>
+                <li>Cooking</li>
+                <li>Biking</li>
+                <li>Watching Movies</li>
+                <li>Walking</li>
+                <li>Snowboarding</li>
+            </ul>
+            <p>I like to do many things especally cooking and making food for myself and the people around me. I struggle with coding and want to try to get better.</p>
+           
+            <h3>Education</h3>
+            <p>I am a Grade 10 student, and I hold a lot of passion for many different activies</p>
+        </section>
+
+        <section class="form-section">
+            <h3>Contact Me</h3>
+            <form id="contact-form">
+                <label for="name">Baneet K. Tatla:</label>
+                <input type="text" id="name" name="name" required><br><br>
+               
+                <label>Preferred Contact Method:</label><br>
+                <input type="radio" id="email" name="contact" value="Email" checked>
+                <label for="email">Email</label><br>
+                <input type="radio" id="phone" name="contact" value="Phone">
+                <label for="phone">Phone</label><br><br>
+               
+                <label for="subscribe">Subscribe to Newsletter:</label>
+                <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+                <button type="button" onclick="changeColor()">Change Background Color</button><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created By: Baneet K. Tatla</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

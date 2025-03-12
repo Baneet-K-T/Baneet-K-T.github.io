@@ -19,11 +19,11 @@ header {
     color: #FFF; /* White will look cute with the lavender */
     padding: 15px 0;
     text-align: center;
-    border-bottom: 4px solid #B19CD9; /* a different shade of purple for the border */
+    border-bottom: 5px solid #B19CD9; /* a different shade of purple for the border */
 }
 
 header h1 {
-    margin: 0;
+    margin: 5;
 }
 
 nav ul {

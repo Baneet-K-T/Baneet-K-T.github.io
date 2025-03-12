@@ -87,13 +87,5 @@ form button {
     justify-content: center;
     text-align: center;
     transition: all 0.3s ease-in-out;
-    box-shadow: 3px 3px 10px rgba(177, 156, 217, 0.5); /* will add a shadow */
-    outline: none; /* Removes strong outline */
-}
 
-/* Hover Effect */
-form button:hover {
-    background-color: #D8BFD8; /* soft lavender */
-    transform: scale(1.1); /* Slightly larger on hover */
-    box-shadow: 5px 5px 15px rgba(177, 156, 217, 0.7); /* a large shadow */
 }

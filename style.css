@@ -10,16 +10,16 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
-    background-color: #E6E6FA; /* Lavender */
+    background-color: #E6E6FA; /*the colour will be lavender*/
     color: #333;
 }
 
 header {
     background-color: #333;
-    color: #FFF; /* White for better contrast */
+    color: #FFF; /* White will look cute with the lavender */
     padding: 15px 0;
     text-align: center;
-    border-bottom: 4px solid #B19CD9; /* Soft lavender border */
+    border-bottom: 4px solid #B19CD9; /* a different shade of purple for the border */
 }
 
 header h1 {
@@ -73,13 +73,13 @@ form input, form textarea {
 
 /* CUTE CIRCLE BUTTON */
 form button {
-    width: 60px; /* Fixed size to make it a perfect circle */
+    width: 60px; /* to make the button circle it needs a size that won't change */
     height: 60px;
-    background-color: #B19CD9; /* Pastel lavender */
+    background-color: #B19CD9; /* light lavender colour */
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 50%; /* Makes it a perfect circle */
+    border-radius: 50%; /* Makes a nice circle */
     font-size: 16px;
     font-weight: bold;
     display: flex;
@@ -87,13 +87,13 @@ form button {
     justify-content: center;
     text-align: center;
     transition: all 0.3s ease-in-out;
-    box-shadow: 3px 3px 10px rgba(177, 156, 217, 0.5); /* Soft cute shadow */
-    outline: none; /* Removes focus outline */
+    box-shadow: 3px 3px 10px rgba(177, 156, 217, 0.5); /* will add a shadow */
+    outline: none; /* Removes strong outline */
 }
 
 /* Hover Effect */
 form button:hover {
-    background-color: #D8BFD8; /* Lighter lavender */
+    background-color: #D8BFD8; /* soft lavender */
     transform: scale(1.1); /* Slightly larger on hover */
-    box-shadow: 5px 5px 15px rgba(177, 156, 217, 0.7); /* Bigger shadow */
+    box-shadow: 5px 5px 15px rgba(177, 156, 217, 0.7); /* a large shadow */
 }

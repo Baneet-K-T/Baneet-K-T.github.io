@@ -81,6 +81,24 @@ form button {
     font-weight: bold;
     transition: 0.3s;
 }
+form button {
+    padding: 15px 25px;
+    background-color: #B19CD9; /* Pastel lavender button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px; /* Rounded button */
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px rgba(177, 156, 217, 0.5); /* Soft cute shadow */
+}
+
+form button:hover {
+    background-color: #D8BFD8; /* Lighter lavender on hover */
+    transform: scale(1.1); /* Slightly larger on hover */
+}
+
 
 form button:hover {
     background-color: #D8BFD8; /* Slightly lighter lavender on hover */

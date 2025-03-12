@@ -61,7 +61,7 @@ footer {
     border: 5px solid #FFC0CB; /* Cute pink border */
 }
 
-/* Form Inputs */
+/* Inputs */
 form input, form textarea {
     width: 100%;
     padding: 12px;
@@ -71,7 +71,7 @@ form input, form textarea {
     background-color: #F8F8FF;
 }
 
-/* CUTE CIRCLE BUTTON */
+/* Cute Circle button */
 form button {
     width: 60px; /* to make the button circle it needs a size that won't change */
     height: 60px;

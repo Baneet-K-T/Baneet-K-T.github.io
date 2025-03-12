@@ -73,9 +73,9 @@ form input, form textarea {
 
 /* CUTE CIRCLE BUTTON */
 form button {
-    width: 60px; /* Make width and height the same for a circle */
+    width: 60px; /* Fixed size to make it a perfect circle */
     height: 60px;
-    background-color: #B19CD9; /* Pastel lavender button */
+    background-color: #B19CD9; /* Pastel lavender */
     color: white;
     border: none;
     cursor: pointer;
@@ -85,8 +85,10 @@ form button {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.3s;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
     box-shadow: 3px 3px 10px rgba(177, 156, 217, 0.5); /* Soft cute shadow */
+    outline: none; /* Removes focus outline */
 }
 
 /* Hover Effect */
@@ -95,4 +97,3 @@ form button:hover {
     transform: scale(1.1); /* Slightly larger on hover */
     box-shadow: 5px 5px 15px rgba(177, 156, 217, 0.7); /* Bigger shadow */
 }
-

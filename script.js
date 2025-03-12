@@ -1,9 +1,9 @@
-// Function to change background color
+// changes background color
 function changeColor() {
     document.body.style.backgroundColor = getRandomColor();
 }
 
-// Function to get a random color
+// this helps get a random colour for the website
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';

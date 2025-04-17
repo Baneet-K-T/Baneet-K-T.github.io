@@ -6,58 +6,82 @@
   <style>
     body {
       font-family: 'Times New Roman', serif;
-      margin: 2rem;
-      background: linear-gradient(to right, #f9f9f9, #e6f0ff);
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #e0ecff, #fefefe);
       color: #2c3e50;
     }
-    h1 {
+    header {
+      background-color: #1a237e;
+      color: white;
+      padding: 2rem;
       text-align: center;
-      color: #1a237e;
-      font-size: 2.5rem;
-      margin-bottom: 2rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
     }
     .section {
       background: white;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      padding: 1.5rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
       margin-bottom: 2rem;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
+      transition: transform 0.2s;
+    }
+    .section:hover {
+      transform: scale(1.02);
     }
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.75rem;
       color: #0d47a1;
       margin-bottom: 1rem;
     }
     ul {
       list-style-type: square;
-      padding-left: 1.5rem;
+      padding-left: 2rem;
+      line-height: 1.8;
     }
-    li {
-      margin-bottom: 0.5rem;
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <h1>My Projects & Skills from Class</h1>
+  <header>
+    <h1>My Projects & Skills from Class</h1>
+  </header>
 
-  <div class="section">
-    <h2>🛠 Skills Learned</h2>
-    <ul>
-      <li>Basic HTML</li>
-      <li>Using Google Sites to make a website</li>
-      <li>Structuring and presenting content</li>
-    </ul>
+  <div class="container">
+    <div class="section">
+      <h2>🛠 Skills Learned</h2>
+      <ul>
+        <li>Basic HTML</li>
+        <li>Using Google Sites to make a website</li>
+        <li>Structuring and presenting content</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📁 Projects</h2>
+      <ul>
+        <li>I have made this website using HTML as a school project for my Computer 10 class</li>
+        <li>I made a website using Google Sites on my Pind/Village back home in India</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="section">
-    <h2>📁 Projects</h2>
-    <ul>
-      <li>HTML website project</li>
-      <li>Village website using Google Sites</li>
-    </ul>
-  </div>
+  <footer>
+    &copy; 2025 My Class Portfolio
+  </footer>
 </body>
 </html>
